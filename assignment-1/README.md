@@ -13,3 +13,8 @@
 ## Description
 
 In this Assignment, we have visualized the various aspects of the TMDB 5000 dataset.
+
+### About the Dataset
+There are two tables in the original dataset - Movies & Credits
+1. Movies has complete data regarding the movies such as runtime, release_date, budget, revenue, etc
+2. Credits has data on the crew who worked on the films
