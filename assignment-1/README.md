@@ -1,1 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/oyChkIit)
+<h2>Roll No - DA25M022</h2>
+<h2>Name - Pranav Guruprasad Rao</h2>
+
+## Structure of the Repo
+1. code.ipynb - Complete notebook of the visualizations and hypothesis
+2. Schema.png - Schema of the modified database
+3. data - Folder containing all of the modified tables and json files
+4. data/figures - Folder containing all of the figures
+5. TMDB 5000 - Folder containing original files
+6. Assignment PDF
+
+
+## Description
+
+In this Assignment, we have visualized the various aspects of the TMDB 5000 dataset.
