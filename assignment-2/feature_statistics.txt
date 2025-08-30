@@ -1,0 +1,254 @@
+FEATURE IMPORTANCE ANALYSIS
+================================================================================
+Feature    Info Gain  Mutual Info  Chi2     P-value    Gini Red.  Variance   Range    Extreme 
+--------------------------------------------------------------------------------
+cap-shape  0.049      0.034        489.9    0.0000     0.030      1165.7     100.0    0.5     
+cap-surface 0.029      0.020        315.0    0.0000     0.019      601.1      67.2     0.2     
+cap-color  0.036      0.025        387.6    0.0000     0.024      577.1      71.4     0.2     
+bruises    0.192      0.133        2041.4   0.0000     0.126      646.5      50.9     0.5     
+odor       0.906      0.628        7659.7   0.0000     0.471      2173.0     100.0    1.0     
+gill-color 0.417      0.289        3765.7   0.0000     0.231      1258.7     100.0    0.6     
+stalk-root 0.108      0.075        1059.1   0.0000     0.065      491.2      57.8     0.5     
+stalk-surface-below-ring 0.272      0.188        2684.5   0.0000     0.165      834.5      69.8     0.2     
+stalk-color-below-ring 0.241      0.167        2152.4   0.0000     0.132      1854.1     100.0    0.8     
+ring-type  0.318      0.220        2956.6   0.0000     0.182      1663.8     100.0    0.6     
+spore-print-color 0.481      0.333        4602.0   0.0000     0.283      1744.1     100.0    0.9     
+population 0.202      0.140        1929.7   0.0000     0.119      599.6      70.5     0.5     
+habitat    0.157      0.109        1573.8   0.0000     0.097      943.0      88.1     0.4
+
+🔍 ANALYZING FEATURE: cap-shape
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.049
+   Mutual Information: 0.034
+   Chi-square: 489.92 (p-value: 0.0000)
+   Gini Reduction: 0.030
+
+📈 Visual Metrics:
+   Variance: 1165.7
+   Range: 100.0%
+   Extreme Score: 0.50
+
+💡 Interpretation:
+   ❌ UNIMPORTANT feature - consider removing
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: cap-surface
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.029
+   Mutual Information: 0.020
+   Chi-square: 315.04 (p-value: 0.0000)
+   Gini Reduction: 0.019
+
+📈 Visual Metrics:
+   Variance: 601.1
+   Range: 67.2%
+   Extreme Score: 0.25
+
+💡 Interpretation:
+   ❌ UNIMPORTANT feature - consider removing
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: cap-color
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.036
+   Mutual Information: 0.025
+   Chi-square: 387.60 (p-value: 0.0000)
+   Gini Reduction: 0.024
+
+📈 Visual Metrics:
+   Variance: 577.1
+   Range: 71.4%
+   Extreme Score: 0.20
+
+💡 Interpretation:
+   ❌ UNIMPORTANT feature - consider removing
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: bruises
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.192
+   Mutual Information: 0.133
+   Chi-square: 2041.42 (p-value: 0.0000)
+   Gini Reduction: 0.126
+
+📈 Visual Metrics:
+   Variance: 646.5
+   Range: 50.9%
+   Extreme Score: 0.50
+
+💡 Interpretation:
+   🔶 MODERATELY IMPORTANT feature
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: odor
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.906
+   Mutual Information: 0.628
+   Chi-square: 7659.73 (p-value: 0.0000)
+   Gini Reduction: 0.471
+
+📈 Visual Metrics:
+   Variance: 2173.0
+   Range: 100.0%
+   Extreme Score: 1.00
+
+💡 Interpretation:
+   ✅ HIGHLY IMPORTANT feature for classification
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: gill-color
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.417
+   Mutual Information: 0.289
+   Chi-square: 3765.71 (p-value: 0.0000)
+   Gini Reduction: 0.231
+
+📈 Visual Metrics:
+   Variance: 1258.7
+   Range: 100.0%
+   Extreme Score: 0.58
+
+💡 Interpretation:
+   ✅ HIGHLY IMPORTANT feature for classification
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: stalk-root
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.108
+   Mutual Information: 0.075
+   Chi-square: 1059.12 (p-value: 0.0000)
+   Gini Reduction: 0.065
+
+📈 Visual Metrics:
+   Variance: 491.2
+   Range: 57.8%
+   Extreme Score: 0.50
+
+💡 Interpretation:
+   🔶 MODERATELY IMPORTANT feature
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: stalk-surface-below-ring
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.272
+   Mutual Information: 0.188
+   Chi-square: 2684.47 (p-value: 0.0000)
+   Gini Reduction: 0.165
+
+📈 Visual Metrics:
+   Variance: 834.5
+   Range: 69.8%
+   Extreme Score: 0.25
+
+💡 Interpretation:
+   🔶 MODERATELY IMPORTANT feature
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: stalk-color-below-ring
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.241
+   Mutual Information: 0.167
+   Chi-square: 2152.39 (p-value: 0.0000)
+   Gini Reduction: 0.132
+
+📈 Visual Metrics:
+   Variance: 1854.1
+   Range: 100.0%
+   Extreme Score: 0.78
+
+💡 Interpretation:
+   🔶 MODERATELY IMPORTANT feature
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: ring-type
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.318
+   Mutual Information: 0.220
+   Chi-square: 2956.62 (p-value: 0.0000)
+   Gini Reduction: 0.182
+
+📈 Visual Metrics:
+   Variance: 1663.8
+   Range: 100.0%
+   Extreme Score: 0.60
+
+💡 Interpretation:
+   ✅ HIGHLY IMPORTANT feature for classification
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: spore-print-color
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.481
+   Mutual Information: 0.333
+   Chi-square: 4602.03 (p-value: 0.0000)
+   Gini Reduction: 0.283
+
+📈 Visual Metrics:
+   Variance: 1744.1
+   Range: 100.0%
+   Extreme Score: 0.89
+
+💡 Interpretation:
+   ✅ HIGHLY IMPORTANT feature for classification
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: population
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.202
+   Mutual Information: 0.140
+   Chi-square: 1929.74 (p-value: 0.0000)
+   Gini Reduction: 0.119
+
+📈 Visual Metrics:
+   Variance: 599.6
+   Range: 70.5%
+   Extreme Score: 0.50
+
+💡 Interpretation:
+   🔶 MODERATELY IMPORTANT feature
+   📊 Statistically significant association (p < 0.05)
+
+🔍 ANALYZING FEATURE: habitat
+==================================================
+📊 Statistical Metrics:
+   Information Gain: 0.157
+   Mutual Information: 0.109
+   Chi-square: 1573.78 (p-value: 0.0000)
+   Gini Reduction: 0.097
+
+📈 Visual Metrics:
+   Variance: 943.0
+   Range: 88.1%
+   Extreme Score: 0.43
+
+💡 Interpretation:
+   🔶 MODERATELY IMPORTANT feature
+   📊 Statistically significant association (p < 0.05)
+
+🏆 FEATURE RANKING:
+==============================
+   🥇 odor: 1.720
+   🥇 spore-print-color: 1.326
+   🥇 stalk-color-below-ring: 1.279
+   🥇 ring-type: 1.217
+   🥇 gill-color: 1.056
+   🥇 cap-shape: 0.854
+   🥇 habitat: 0.758
+   🥇 stalk-surface-below-ring: 0.707
+   🥈 population: 0.562
+   🥈 bruises: 0.532
+   🥈 cap-color: 0.482
+   🥈 cap-surface: 0.481
+   🥈 stalk-root: 0.436
