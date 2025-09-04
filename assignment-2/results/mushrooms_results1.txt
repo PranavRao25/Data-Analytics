@@ -1,0 +1,93 @@
+Original Dimension:  17
+New Dimensions:  86
+Percentage Increase in Dimension size:  405.88235294117646
+First component explains 10.1% of variance
+53 components needed for 95% variance
+LOGISTIC REGRESSION MODEL EVALUATION
+==================================================
+Test Set Size: 2031 samples
+Accuracy: 1.0000 (100.00%)
+Precision (weighted): 1.0000
+Recall (weighted): 1.0000
+F1-Score (weighted): 1.0000
+
+DETAILED CLASSIFICATION REPORT:
+--------------------------------------------------
+              precision    recall  f1-score   support
+
+      Edible       1.00      1.00      1.00      1040
+   Poisonous       1.00      1.00      1.00       991
+
+    accuracy                           1.00      2031
+   macro avg       1.00      1.00      1.00      2031
+weighted avg       1.00      1.00      1.00      2031
+
+
+PER-CLASS PERFORMANCE BREAKDOWN:
+--------------------------------------------------
+
+EDIBLE:
+  Precision: 1.0000 (100.00%)
+  Recall:    1.0000 (100.00%)
+  F1-Score:  1.0000
+  Support:   1040 samples
+
+POISONOUS:
+  Precision: 1.0000 (100.00%)
+  Recall:    1.0000 (100.00%)
+  F1-Score:  1.0000
+  Support:   991 samples
+
+MODEL PERFORMANCE SUMMARY:
+==================================================
+✓ Overall Accuracy: 1.0000 (100.00%)
+✓ Weighted F1-Score: 1.0000
+
+ Classification Report and Confusion Matrix saved in variables:
+   - 'report': classification_report dictionary
+   - 'cm': confusion matrix array
+   - 'accuracy': 1.0000
+LOGISTIC REGRESSION MODEL EVALUATION
+==================================================
+Test Set Size: 2031 samples
+Accuracy: 1.0000 (100.00%)
+Precision (weighted): 1.0000
+Recall (weighted): 1.0000
+F1-Score (weighted): 1.0000
+
+DETAILED CLASSIFICATION REPORT:
+--------------------------------------------------
+              precision    recall  f1-score   support
+
+      Edible       1.00      1.00      1.00      1040
+   Poisonous       1.00      1.00      1.00       991
+
+    accuracy                           1.00      2031
+   macro avg       1.00      1.00      1.00      2031
+weighted avg       1.00      1.00      1.00      2031
+
+
+PER-CLASS PERFORMANCE BREAKDOWN:
+--------------------------------------------------
+
+EDIBLE:
+  Precision: 1.0000 (100.00%)
+  Recall:    1.0000 (100.00%)
+  F1-Score:  1.0000
+  Support:   1040 samples
+
+POISONOUS:
+  Precision: 1.0000 (100.00%)
+  Recall:    1.0000 (100.00%)
+  F1-Score:  1.0000
+  Support:   991 samples
+
+MODEL PERFORMANCE SUMMARY:
+==================================================
+✓ Overall Accuracy: 1.0000 (100.00%)
+✓ Weighted F1-Score: 1.0000
+
+ Classification Report and Confusion Matrix saved in variables:
+   - 'report': classification_report dictionary
+   - 'cm': confusion matrix array
+   - 'accuracy': 1.0000
