@@ -10,9 +10,7 @@ Accuracy: 1.0000 (100.00%)
 Precision (weighted): 1.0000
 Recall (weighted): 1.0000
 F1-Score (weighted): 1.0000
-
-DETAILED CLASSIFICATION REPORT:
---------------------------------------------------
+CLASSIFICATION REPORT:
               precision    recall  f1-score   support
 
       Edible       1.00      1.00      1.00      1040
@@ -54,9 +52,7 @@ Accuracy: 1.0000 (100.00%)
 Precision (weighted): 1.0000
 Recall (weighted): 1.0000
 F1-Score (weighted): 1.0000
-
-DETAILED CLASSIFICATION REPORT:
---------------------------------------------------
+CLASSIFICATION REPORT:
               precision    recall  f1-score   support
 
       Edible       1.00      1.00      1.00      1040
