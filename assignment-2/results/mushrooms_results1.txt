@@ -38,8 +38,8 @@ POISONOUS:
 
 MODEL PERFORMANCE SUMMARY:
 ==================================================
-✓ Overall Accuracy: 1.0000 (100.00%)
-✓ Weighted F1-Score: 1.0000
+Overall Accuracy: 1.0000 (100.00%)
+Weighted F1-Score: 1.0000
 
  Classification Report and Confusion Matrix saved in variables:
    - 'report': classification_report dictionary
@@ -80,8 +80,8 @@ POISONOUS:
 
 MODEL PERFORMANCE SUMMARY:
 ==================================================
-✓ Overall Accuracy: 1.0000 (100.00%)
-✓ Weighted F1-Score: 1.0000
+Overall Accuracy: 1.0000 (100.00%)
+Weighted F1-Score: 1.0000
 
  Classification Report and Confusion Matrix saved in variables:
    - 'report': classification_report dictionary
