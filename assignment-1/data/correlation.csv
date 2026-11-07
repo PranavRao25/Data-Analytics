@@ -1,0 +1,10 @@
+Variable 1,Variable 2,Correlation
+revenue,profit,0.9794522391913987
+revenue,vote_count,0.7720604039478278
+popularity,vote_count,0.7659683379175457
+vote_count,profit,0.7508320491109037
+budget,revenue,0.7202792159950013
+popularity,revenue,0.626524522566739
+popularity,profit,0.6066224107407171
+budget,vote_count,0.5745498736058522
+budget,profit,0.5655794486507395
