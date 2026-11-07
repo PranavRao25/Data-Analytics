@@ -1,0 +1,38 @@
+FEATURE IMPORTANCE COMPARISON:
+==================================================
+Feature Type         Variance   Max Diff   Assessment
+-----------------------------------------------------------------
+Random/Unimportant   9.3        9.0        ❌ Not useful
+Weakly Important     38.8       20.0       🔶 Somewhat useful
+Moderately Important 149.0      35.0       ⚠️ Moderately useful
+Highly Important     1312.2     85.0       ✅ Highly useful
+Completely Useless   0.0        0.0        ❌ Not useful
+Noisy                32.1       14.8       🔶 Somewhat useful
+
+KEY INSIGHTS:
+==============================
+• Random features show ~45-55% for all values (flat, boring)
+• Important features show extreme differences (10% vs 90%)
+• Your habitat feature shows STRONG patterns = HIGH IMPORTANCE
+• Look for variance > 100 and max differences > 30% for good features
+
+Highly Important Feature:
+
+Info Gain > 0.3
+Variance > 200
+Range > 50%
+p-value < 0.001
+
+🔶 Moderately Important:
+
+Info Gain: 0.1-0.3
+Variance: 50-200
+Range: 20-50%
+p-value < 0.05
+
+❌ Unimportant Feature:
+
+Info Gain < 0.1
+Variance < 50
+Range < 20%
+p-value > 0.05
